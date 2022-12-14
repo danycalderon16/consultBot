@@ -29,7 +29,7 @@ app.add_middleware(
 
 
 @app.get("/")
-def home():
+def home(): 
     res = get_response("como estas?")
     return {"Hello":res}
 
